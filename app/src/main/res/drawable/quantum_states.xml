@@ -1,0 +1,51 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    
+    <!-- Energy levels -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#6B4EFF"
+        android:strokeWidth="2"
+        android:pathData="M40,40L160,40"/>
+    
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#6B4EFF"
+        android:strokeWidth="2"
+        android:pathData="M40,80L160,80"/>
+    
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#6B4EFF"
+        android:strokeWidth="2"
+        android:pathData="M40,120L160,120"/>
+    
+    <!-- Electron transitions -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF6B4E"
+        android:strokeWidth="2"
+        android:pathData="M80,120L120,80"/>
+    
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF6B4E"
+        android:strokeWidth="2"
+        android:pathData="M100,80L140,40"/>
+    
+    <!-- Electrons -->
+    <path
+        android:fillColor="#6B4EFF"
+        android:pathData="M75,120a5,5 0 1,0 10,0a5,5 0 1,0 -10,0"/>
+    
+    <path
+        android:fillColor="#6B4EFF"
+        android:pathData="M115,80a5,5 0 1,0 10,0a5,5 0 1,0 -10,0"/>
+    
+    <path
+        android:fillColor="#6B4EFF"
+        android:pathData="M135,40a5,5 0 1,0 10,0a5,5 0 1,0 -10,0"/>
+</vector> 

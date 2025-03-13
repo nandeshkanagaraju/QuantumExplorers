@@ -1,0 +1,24 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Modified triangle -->
+    <path
+        android:fillColor="#E6E1FF"
+        android:strokeColor="#6B4EFF"
+        android:strokeWidth="2"
+        android:pathData="M50,150L150,150L100,80z"/>
+    
+    <!-- 60° angle marker -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF6B4E"
+        android:strokeWidth="2"
+        android:pathData="M50,150A20,20 0 0,1 60,130"/>
+    
+    <!-- 60° text using path -->
+    <path
+        android:fillColor="#FF6B4E"
+        android:pathData="M45,130l6,-2l4,0l-2,5l-4,0z"/>
+</vector> 

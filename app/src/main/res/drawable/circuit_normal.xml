@@ -1,0 +1,33 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Battery -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#6B4EFF"
+        android:strokeWidth="2"
+        android:pathData="M40,80L40,120M50,90L50,110"/>
+    
+    <!-- Resistor (normal orientation) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#6B4EFF"
+        android:strokeWidth="2"
+        android:pathData="M70,100L80,100L85,90L95,110L105,90L115,110L120,100L130,100"/>
+    
+    <!-- LED -->
+    <path
+        android:fillColor="#FFB4A7"
+        android:strokeColor="#FF6B4E"
+        android:strokeWidth="2"
+        android:pathData="M150,90L170,100L150,110z"/>
+    
+    <!-- Wires -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#6B4EFF"
+        android:strokeWidth="2"
+        android:pathData="M40,100L70,100M130,100L150,100M170,100L180,100"/>
+</vector> 

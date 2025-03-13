@@ -1,0 +1,38 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    
+    <!-- Equation line -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#6B4EFF"
+        android:strokeWidth="2"
+        android:pathData="M40,100L160,100"/>
+    
+    <!-- 5x^2 -->
+    <path
+        android:fillColor="#6B4EFF"
+        android:pathData="M50,90L65,90L70,85L75,90"/>
+    
+    <!-- + -->
+    <path
+        android:fillColor="#6B4EFF"
+        android:pathData="M85,90L95,90M90,85L90,95"/>
+    
+    <!-- 4x -->
+    <path
+        android:fillColor="#6B4EFF"
+        android:pathData="M105,90L115,90L120,85"/>
+    
+    <!-- = -->
+    <path
+        android:fillColor="#6B4EFF"
+        android:pathData="M130,88L140,88M130,92L140,92"/>
+    
+    <!-- 12 -->
+    <path
+        android:fillColor="#6B4EFF"
+        android:pathData="M150,90L160,90"/>
+</vector> 

@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Cell membrane -->
+    <path
+        android:fillColor="#E6E1FF"
+        android:strokeColor="#6B4EFF"
+        android:strokeWidth="2"
+        android:pathData="M20,100a80,80 0 1,0 160,0a80,80 0 1,0 -160,0"/>
+    
+    <!-- Nucleus -->
+    <path
+        android:fillColor="#B4A7FF"
+        android:strokeColor="#6B4EFF"
+        android:strokeWidth="2"
+        android:pathData="M70,100a30,30 0 1,0 60,0a30,30 0 1,0 -60,0"/>
+    
+    <!-- Golgi Apparatus -->
+    <path
+        android:fillColor="#A7FFB4"
+        android:strokeColor="#4EFF6B"
+        android:strokeWidth="2"
+        android:pathData="M140,120c0,0 10,5 10,10s-10,10 -10,10s-10,-5 -10,-10s10,-10 10,-10"/>
+</vector> 

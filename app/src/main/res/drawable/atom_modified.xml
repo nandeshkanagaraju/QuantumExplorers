@@ -1,0 +1,55 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Same as atom_normal.xml but with modified electron shell -->
+    <!-- Electron orbits -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#6B4EFF"
+        android:strokeWidth="2"
+        android:pathData="M20,100a80,40 0 1,0 160,0a80,40 0 1,0 -160,0"/>
+    
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#6B4EFF"
+        android:strokeWidth="2"
+        android:pathData="M100,20a40,80 0 1,0 0,160a40,80 0 1,0 0,-160"/>
+    
+    <!-- Inner electron shell -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#4E9FFF"
+        android:strokeWidth="2"
+        android:pathData="M40,100a60,30 0 1,0 120,0a60,30 0 1,0 -120,0"/>
+    
+    <!-- Nucleus -->
+    <path
+        android:fillColor="#FFB4A7"
+        android:strokeColor="#FF6B4E"
+        android:strokeWidth="2"
+        android:pathData="M85,85a15,15 0 1,0 30,0a15,15 0 1,0 -30,0"/>
+    
+    <!-- Electrons -->
+    <path
+        android:fillColor="#6B4EFF"
+        android:pathData="M95,45a5,5 0 1,0 10,0a5,5 0 1,0 -10,0"/>
+        
+    <path
+        android:fillColor="#6B4EFF"
+        android:pathData="M95,155a5,5 0 1,0 10,0a5,5 0 1,0 -10,0"/>
+        
+    <path
+        android:fillColor="#6B4EFF"
+        android:pathData="M45,100a5,5 0 1,0 10,0a5,5 0 1,0 -10,0"/>
+        
+    <path
+        android:fillColor="#6B4EFF"
+        android:pathData="M145,100a5,5 0 1,0 10,0a5,5 0 1,0 -10,0"/>
+        
+    <!-- Inner shell electron -->
+    <path
+        android:fillColor="#4E9FFF"
+        android:pathData="M70,100a4,4 0 1,0 8,0a4,4 0 1,0 -8,0"/>
+</vector> 

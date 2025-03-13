@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    
+    <!-- Numbers -->
+    <path
+        android:fillColor="#6B4EFF"
+        android:pathData="M60,100L70,100M90,100L100,100M120,100L130,100M150,100L155,100"/>
+    
+    <!-- Multiplication arrows -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF6B4E"
+        android:strokeWidth="2"
+        android:pathData="M75,110C80,115 85,115 90,110"/>
+</vector> 
